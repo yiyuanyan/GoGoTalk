@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3505009B20244DF500C7CECF /* CurriculumVIPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505009A20244DF500C7CECF /* CurriculumVIPCell.m */; };
+		3505009E202454C000C7CECF /* CurriculumTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505009D202454C000C7CECF /* CurriculumTopView.m */; };
+		350500A12024723100C7CECF /* VIPCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 350500A02024723100C7CECF /* VIPCellModel.m */; };
+		351CC8DC20280BB8005D557A /* CurriculumVIPEndCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 351CC8DB20280BB8005D557A /* CurriculumVIPEndCell.m */; };
+		351CC8E22028343B005D557A /* ClassInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351CC8E12028343B005D557A /* ClassInfoController.m */; };
+		351CC8E52028410D005D557A /* ClassInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 351CC8E42028410D005D557A /* ClassInfoCell.m */; };
+		351CC8E8202867A2005D557A /* ClassEvaluateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351CC8E7202867A2005D557A /* ClassEvaluateController.m */; };
+		3548972620294243002E081A /* ClassEvaluateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3548972520294243002E081A /* ClassEvaluateView.m */; };
+		3561AF5B201976D1009CD26B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561AF5A201976D1009CD26B /* AppDelegate.m */; };
+		3561AF5E201976D1009CD26B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561AF5D201976D1009CD26B /* ViewController.m */; };
+		3561AF61201976D1009CD26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3561AF5F201976D1009CD26B /* Main.storyboard */; };
+		3561AF63201976D1009CD26B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3561AF62201976D1009CD26B /* Assets.xcassets */; };
+		3561AF66201976D1009CD26B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3561AF64201976D1009CD26B /* LaunchScreen.storyboard */; };
+		3561AF69201976D1009CD26B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561AF68201976D1009CD26B /* main.m */; };
+		3561AF73201976D1009CD26B /* GoGoTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561AF72201976D1009CD26B /* GoGoTalkTests.m */; };
+		3561AF7E201976D1009CD26B /* GoGoTalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3561AF7D201976D1009CD26B /* GoGoTalkUITests.m */; };
+		356F4D3F2029AD020050567A /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 356F4D3E2029AD020050567A /* SearchView.m */; };
+		359A938520199B8600A63A5C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A938420199B8600A63A5C /* LoginViewController.m */; };
+		359A938820199BBF00A63A5C /* NewFeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A938720199BBF00A63A5C /* NewFeatherViewController.m */; };
+		35C1722E201ECFB400741213 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C1722D201ECFB400741213 /* LoginView.m */; };
+		35C17239201F289100741213 /* CurriculumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C17238201F289100741213 /* CurriculumController.m */; };
+		35C17244201F2A2A00741213 /* OrderclassController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C17243201F2A2A00741213 /* OrderclassController.m */; };
+		35C17247201F2A3600741213 /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C17246201F2A3600741213 /* MineController.m */; };
+		35DB729120197AC3008CF63D /* XCNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB726520197AC3008CF63D /* XCNormalFooter.m */; };
+		35DB729220197AC3008CF63D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB726620197AC3008CF63D /* BaseViewController.m */; };
+		35DB729320197AC3008CF63D /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB726820197AC3008CF63D /* BaseNavigationController.m */; };
+		35DB729420197AC3008CF63D /* XCNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB726A20197AC3008CF63D /* XCNormalHeader.m */; };
+		35DB729520197AC3008CF63D /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB726C20197AC3008CF63D /* MBProgressHUD+Extension.m */; };
+		35DB729620197AC3008CF63D /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB726E20197AC3008CF63D /* BaseTabBarController.m */; };
+		35DB729720197AC3008CF63D /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35DB726F20197AC3008CF63D /* MBProgressHUD.bundle */; };
+		35DB729820197AC3008CF63D /* FLAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB727320197AC3008CF63D /* FLAnimatedImageView+WebCache.m */; };
+		35DB729920197AC3008CF63D /* UIView+XCCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB727520197AC3008CF63D /* UIView+XCCornerRadius.m */; };
+		35DB729A20197AC3008CF63D /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB727820197AC3008CF63D /* UIImage+Category.m */; };
+		35DB729B20197AC3008CF63D /* UIButton+XCHelperBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB727A20197AC3008CF63D /* UIButton+XCHelperBlock.m */; };
+		35DB729C20197AC3008CF63D /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB727B20197AC3008CF63D /* UIView+Layout.m */; };
+		35DB729D20197AC3008CF63D /* BaseNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB727C20197AC3008CF63D /* BaseNetworking.m */; };
+		35DB729E20197AC3008CF63D /* UIButton+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB727F20197AC3008CF63D /* UIButton+timer.m */; };
+		35DB729F20197AC3008CF63D /* NSString+XCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB728020197AC3008CF63D /* NSString+XCHelper.m */; };
+		35DB72A020197AC3008CF63D /* NSArray+SafeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB728120197AC3008CF63D /* NSArray+SafeExtension.m */; };
+		35DB72A120197AC3008CF63D /* UILabel+XCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB728220197AC3008CF63D /* UILabel+XCHelper.m */; };
+		35DB72A320197AC3008CF63D /* UIView+XCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB728620197AC3008CF63D /* UIView+XCHelper.m */; };
+		35DB72A420197AC3008CF63D /* UIAlertController+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DB728820197AC3008CF63D /* UIAlertController+Color.m */; };
+		35DC65902020309800AAA3CD /* CurriculumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC658F2020309800AAA3CD /* CurriculumView.m */; };
+		35EF5A84202A985800F74F8A /* TeacherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF5A83202A985800F74F8A /* TeacherCell.m */; };
+		35EF5A87202ADAA900F74F8A /* ConditionsSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EF5A86202ADAA900F74F8A /* ConditionsSelectionController.m */; };
+		8A923205385532BF97AC7A12 /* Pods_GoGoTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB876D855951AA54E7A61D6 /* Pods_GoGoTalkUITests.framework */; };
+		D5FE562F78C0AE91CB262B3E /* Pods_GoGoTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC4BB7508F2C4B36C46051C /* Pods_GoGoTalk.framework */; };
+		D7EFF19D44CA2EFBCFFD9434 /* Pods_GoGoTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A612CD98E62E96EC9C6172 /* Pods_GoGoTalkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3561AF6F201976D1009CD26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3561AF4E201976D1009CD26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3561AF55201976D1009CD26B;
+			remoteInfo = GoGoTalk;
+		};
+		3561AF7A201976D1009CD26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3561AF4E201976D1009CD26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3561AF55201976D1009CD26B;
+			remoteInfo = GoGoTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D52CB5CD468D42A6FFD8DB6 /* Pods-GoGoTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoGoTalkTests/Pods-GoGoTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		3505009920244DF500C7CECF /* CurriculumVIPCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurriculumVIPCell.h; sourceTree = "<group>"; };
+		3505009A20244DF500C7CECF /* CurriculumVIPCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurriculumVIPCell.m; sourceTree = "<group>"; };
+		3505009C202454C000C7CECF /* CurriculumTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurriculumTopView.h; sourceTree = "<group>"; };
+		3505009D202454C000C7CECF /* CurriculumTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurriculumTopView.m; sourceTree = "<group>"; };
+		3505009F2024723100C7CECF /* VIPCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPCellModel.h; sourceTree = "<group>"; };
+		350500A02024723100C7CECF /* VIPCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPCellModel.m; sourceTree = "<group>"; };
+		351CC8DA20280BB8005D557A /* CurriculumVIPEndCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurriculumVIPEndCell.h; sourceTree = "<group>"; };
+		351CC8DB20280BB8005D557A /* CurriculumVIPEndCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurriculumVIPEndCell.m; sourceTree = "<group>"; };
+		351CC8E02028343B005D557A /* ClassInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassInfoController.h; sourceTree = "<group>"; };
+		351CC8E12028343B005D557A /* ClassInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassInfoController.m; sourceTree = "<group>"; };
+		351CC8E32028410D005D557A /* ClassInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassInfoCell.h; sourceTree = "<group>"; };
+		351CC8E42028410D005D557A /* ClassInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassInfoCell.m; sourceTree = "<group>"; };
+		351CC8E6202867A2005D557A /* ClassEvaluateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassEvaluateController.h; sourceTree = "<group>"; };
+		351CC8E7202867A2005D557A /* ClassEvaluateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassEvaluateController.m; sourceTree = "<group>"; };
+		3548972420294243002E081A /* ClassEvaluateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassEvaluateView.h; sourceTree = "<group>"; };
+		3548972520294243002E081A /* ClassEvaluateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassEvaluateView.m; sourceTree = "<group>"; };
+		3561AF56201976D1009CD26B /* GoGoTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGoTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3561AF59201976D1009CD26B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3561AF5A201976D1009CD26B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3561AF5C201976D1009CD26B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3561AF5D201976D1009CD26B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3561AF60201976D1009CD26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3561AF62201976D1009CD26B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3561AF65201976D1009CD26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3561AF67201976D1009CD26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3561AF68201976D1009CD26B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3561AF6E201976D1009CD26B /* GoGoTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoGoTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3561AF72201976D1009CD26B /* GoGoTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoGoTalkTests.m; sourceTree = "<group>"; };
+		3561AF74201976D1009CD26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3561AF79201976D1009CD26B /* GoGoTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoGoTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3561AF7D201976D1009CD26B /* GoGoTalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoGoTalkUITests.m; sourceTree = "<group>"; };
+		3561AF7F201976D1009CD26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3561AF8B201978A6009CD26B /* AppInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppInformation.h; sourceTree = "<group>"; };
+		3561AFCF20197915009CD26B /* AppUIInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUIInformation.h; sourceTree = "<group>"; };
+		3561AFD02019793C009CD26B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		356F4D3D2029AD020050567A /* SearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		356F4D3E2029AD020050567A /* SearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+		359A938320199B8600A63A5C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		359A938420199B8600A63A5C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		359A938620199BBF00A63A5C /* NewFeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewFeatherViewController.h; sourceTree = "<group>"; };
+		359A938720199BBF00A63A5C /* NewFeatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewFeatherViewController.m; sourceTree = "<group>"; };
+		35C1722C201ECFB400741213 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		35C1722D201ECFB400741213 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		35C17237201F289100741213 /* CurriculumController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurriculumController.h; sourceTree = "<group>"; };
+		35C17238201F289100741213 /* CurriculumController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurriculumController.m; sourceTree = "<group>"; };
+		35C17242201F2A2A00741213 /* OrderclassController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderclassController.h; sourceTree = "<group>"; };
+		35C17243201F2A2A00741213 /* OrderclassController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderclassController.m; sourceTree = "<group>"; };
+		35C17245201F2A3600741213 /* MineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
+		35C17246201F2A3600741213 /* MineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
+		35DB726520197AC3008CF63D /* XCNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNormalFooter.m; sourceTree = "<group>"; };
+		35DB726620197AC3008CF63D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		35DB726720197AC3008CF63D /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		35DB726820197AC3008CF63D /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		35DB726920197AC3008CF63D /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		35DB726A20197AC3008CF63D /* XCNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNormalHeader.m; sourceTree = "<group>"; };
+		35DB726B20197AC3008CF63D /* XCNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNormalHeader.h; sourceTree = "<group>"; };
+		35DB726C20197AC3008CF63D /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		35DB726D20197AC3008CF63D /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		35DB726E20197AC3008CF63D /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		35DB726F20197AC3008CF63D /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		35DB727020197AC3008CF63D /* XCNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNormalFooter.h; sourceTree = "<group>"; };
+		35DB727120197AC3008CF63D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		35DB727320197AC3008CF63D /* FLAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
+		35DB727520197AC3008CF63D /* UIView+XCCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCCornerRadius.m"; sourceTree = "<group>"; };
+		35DB727620197AC3008CF63D /* UILabel+XCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XCHelper.h"; sourceTree = "<group>"; };
+		35DB727720197AC3008CF63D /* UIAlertController+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Color.h"; sourceTree = "<group>"; };
+		35DB727820197AC3008CF63D /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		35DB727920197AC3008CF63D /* UIView+XCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCHelper.h"; sourceTree = "<group>"; };
+		35DB727A20197AC3008CF63D /* UIButton+XCHelperBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XCHelperBlock.m"; sourceTree = "<group>"; };
+		35DB727B20197AC3008CF63D /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		35DB727C20197AC3008CF63D /* BaseNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworking.m; sourceTree = "<group>"; };
+		35DB727F20197AC3008CF63D /* UIButton+timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+timer.m"; sourceTree = "<group>"; };
+		35DB728020197AC3008CF63D /* NSString+XCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XCHelper.m"; sourceTree = "<group>"; };
+		35DB728120197AC3008CF63D /* NSArray+SafeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeExtension.m"; sourceTree = "<group>"; };
+		35DB728220197AC3008CF63D /* UILabel+XCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XCHelper.m"; sourceTree = "<group>"; };
+		35DB728320197AC3008CF63D /* UIView+XCCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCCornerRadius.h"; sourceTree = "<group>"; };
+		35DB728520197AC3008CF63D /* FLAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
+		35DB728620197AC3008CF63D /* UIView+XCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCHelper.m"; sourceTree = "<group>"; };
+		35DB728720197AC3008CF63D /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		35DB728820197AC3008CF63D /* UIAlertController+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Color.m"; sourceTree = "<group>"; };
+		35DB728920197AC3008CF63D /* BaseNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetworking.h; sourceTree = "<group>"; };
+		35DB728A20197AC3008CF63D /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		35DB728B20197AC3008CF63D /* UIButton+XCHelperBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XCHelperBlock.h"; sourceTree = "<group>"; };
+		35DB728C20197AC3008CF63D /* NSArray+SafeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeExtension.h"; sourceTree = "<group>"; };
+		35DB728D20197AC3008CF63D /* NSString+XCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XCHelper.h"; sourceTree = "<group>"; };
+		35DB728E20197AC3008CF63D /* UIButton+timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+timer.h"; sourceTree = "<group>"; };
+		35DC658E2020309800AAA3CD /* CurriculumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurriculumView.h; sourceTree = "<group>"; };
+		35DC658F2020309800AAA3CD /* CurriculumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurriculumView.m; sourceTree = "<group>"; };
+		35EF5A82202A985800F74F8A /* TeacherCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeacherCell.h; sourceTree = "<group>"; };
+		35EF5A83202A985800F74F8A /* TeacherCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherCell.m; sourceTree = "<group>"; };
+		35EF5A85202ADAA900F74F8A /* ConditionsSelectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConditionsSelectionController.h; sourceTree = "<group>"; };
+		35EF5A86202ADAA900F74F8A /* ConditionsSelectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConditionsSelectionController.m; sourceTree = "<group>"; };
+		50A612CD98E62E96EC9C6172 /* Pods_GoGoTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGoTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		586BA3F74A8BB15A620F0A8D /* Pods-GoGoTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoGoTalkUITests/Pods-GoGoTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB876D855951AA54E7A61D6 /* Pods_GoGoTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGoTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F972A673EA02CED8EEFE5AE /* Pods-GoGoTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoGoTalk/Pods-GoGoTalk.release.xcconfig"; sourceTree = "<group>"; };
+		960454EC04C0F7F03019542C /* Pods-GoGoTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoGoTalkTests/Pods-GoGoTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA4F9F210F598FCCE0146E0C /* Pods-GoGoTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoGoTalk/Pods-GoGoTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		E1CB850F6FF0EA5E2BCBB6D0 /* Pods-GoGoTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGoTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoGoTalkUITests/Pods-GoGoTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FAC4BB7508F2C4B36C46051C /* Pods_GoGoTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGoTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3561AF53201976D1009CD26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FE562F78C0AE91CB262B3E /* Pods_GoGoTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561AF6B201976D1009CD26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EFF19D44CA2EFBCFFD9434 /* Pods_GoGoTalkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561AF76201976D1009CD26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A923205385532BF97AC7A12 /* Pods_GoGoTalkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350500972024483E00C7CECF /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				3505009920244DF500C7CECF /* CurriculumVIPCell.h */,
+				3505009A20244DF500C7CECF /* CurriculumVIPCell.m */,
+				351CC8DA20280BB8005D557A /* CurriculumVIPEndCell.h */,
+				351CC8DB20280BB8005D557A /* CurriculumVIPEndCell.m */,
+				351CC8E32028410D005D557A /* ClassInfoCell.h */,
+				351CC8E42028410D005D557A /* ClassInfoCell.m */,
+				3505009C202454C000C7CECF /* CurriculumTopView.h */,
+				3505009D202454C000C7CECF /* CurriculumTopView.m */,
+				3548972420294243002E081A /* ClassEvaluateView.h */,
+				3548972520294243002E081A /* ClassEvaluateView.m */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		350500982024485500C7CECF /* Free */ = {
+			isa = PBXGroup;
+			children = (
+				35DC658E2020309800AAA3CD /* CurriculumView.h */,
+				35DC658F2020309800AAA3CD /* CurriculumView.m */,
+			);
+			path = Free;
+			sourceTree = "<group>";
+		};
+		355C24DD20197EEE00D3481D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				355C24DE20197EEE00D3481D /* Controller */,
+				355C24DF20197EEE00D3481D /* Model */,
+				355C24E020197EEE00D3481D /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		355C24DE20197EEE00D3481D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				359A938320199B8600A63A5C /* LoginViewController.h */,
+				359A938420199B8600A63A5C /* LoginViewController.m */,
+				359A938620199BBF00A63A5C /* NewFeatherViewController.h */,
+				359A938720199BBF00A63A5C /* NewFeatherViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		355C24DF20197EEE00D3481D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		355C24E020197EEE00D3481D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35C1722C201ECFB400741213 /* LoginView.h */,
+				35C1722D201ECFB400741213 /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3561AF4D201976D1009CD26B = {
+			isa = PBXGroup;
+			children = (
+				3561AF58201976D1009CD26B /* GoGoTalk */,
+				3561AF71201976D1009CD26B /* GoGoTalkTests */,
+				3561AF7C201976D1009CD26B /* GoGoTalkUITests */,
+				3561AF57201976D1009CD26B /* Products */,
+				AA4CB01FD0412CDBFF3332D8 /* Pods */,
+				70E02A9584FDF4A016305064 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3561AF57201976D1009CD26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3561AF56201976D1009CD26B /* GoGoTalk.app */,
+				3561AF6E201976D1009CD26B /* GoGoTalkTests.xctest */,
+				3561AF79201976D1009CD26B /* GoGoTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3561AF58201976D1009CD26B /* GoGoTalk */ = {
+			isa = PBXGroup;
+			children = (
+				35C17233201F287000741213 /* Curriculum */,
+				35C1723E201F2A1900741213 /* Mine */,
+				35C1723A201F2A1900741213 /* Orderclass */,
+				355C24DD20197EEE00D3481D /* Other */,
+				35DB726420197AC3008CF63D /* CommonClass */,
+				35DB727220197AC3008CF63D /* Extension */,
+				3561AF59201976D1009CD26B /* AppDelegate.h */,
+				3561AF5A201976D1009CD26B /* AppDelegate.m */,
+				3561AF5C201976D1009CD26B /* ViewController.h */,
+				3561AF5D201976D1009CD26B /* ViewController.m */,
+				3561AF5F201976D1009CD26B /* Main.storyboard */,
+				3561AF62201976D1009CD26B /* Assets.xcassets */,
+				3561AF64201976D1009CD26B /* LaunchScreen.storyboard */,
+				3561AF67201976D1009CD26B /* Info.plist */,
+				3561AF68201976D1009CD26B /* main.m */,
+				3561AF8B201978A6009CD26B /* AppInformation.h */,
+				3561AFCF20197915009CD26B /* AppUIInformation.h */,
+				3561AFD02019793C009CD26B /* PrefixHeader.pch */,
+			);
+			path = GoGoTalk;
+			sourceTree = "<group>";
+		};
+		3561AF71201976D1009CD26B /* GoGoTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3561AF72201976D1009CD26B /* GoGoTalkTests.m */,
+				3561AF74201976D1009CD26B /* Info.plist */,
+			);
+			path = GoGoTalkTests;
+			sourceTree = "<group>";
+		};
+		3561AF7C201976D1009CD26B /* GoGoTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3561AF7D201976D1009CD26B /* GoGoTalkUITests.m */,
+				3561AF7F201976D1009CD26B /* Info.plist */,
+			);
+			path = GoGoTalkUITests;
+			sourceTree = "<group>";
+		};
+		35C17233201F287000741213 /* Curriculum */ = {
+			isa = PBXGroup;
+			children = (
+				35C17234201F287000741213 /* Controller */,
+				35C17235201F287000741213 /* Model */,
+				35C17236201F287000741213 /* View */,
+			);
+			path = Curriculum;
+			sourceTree = "<group>";
+		};
+		35C17234201F287000741213 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35C17237201F289100741213 /* CurriculumController.h */,
+				35C17238201F289100741213 /* CurriculumController.m */,
+				351CC8E02028343B005D557A /* ClassInfoController.h */,
+				351CC8E12028343B005D557A /* ClassInfoController.m */,
+				351CC8E6202867A2005D557A /* ClassEvaluateController.h */,
+				351CC8E7202867A2005D557A /* ClassEvaluateController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35C17235201F287000741213 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3505009F2024723100C7CECF /* VIPCellModel.h */,
+				350500A02024723100C7CECF /* VIPCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35C17236201F287000741213 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				350500982024485500C7CECF /* Free */,
+				350500972024483E00C7CECF /* VIP */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35C1723A201F2A1900741213 /* Orderclass */ = {
+			isa = PBXGroup;
+			children = (
+				35C1723B201F2A1900741213 /* Controller */,
+				35C1723C201F2A1900741213 /* Model */,
+				35C1723D201F2A1900741213 /* View */,
+			);
+			path = Orderclass;
+			sourceTree = "<group>";
+		};
+		35C1723B201F2A1900741213 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35C17242201F2A2A00741213 /* OrderclassController.h */,
+				35C17243201F2A2A00741213 /* OrderclassController.m */,
+				35EF5A85202ADAA900F74F8A /* ConditionsSelectionController.h */,
+				35EF5A86202ADAA900F74F8A /* ConditionsSelectionController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35C1723C201F2A1900741213 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35C1723D201F2A1900741213 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				356F4D3D2029AD020050567A /* SearchView.h */,
+				356F4D3E2029AD020050567A /* SearchView.m */,
+				35EF5A82202A985800F74F8A /* TeacherCell.h */,
+				35EF5A83202A985800F74F8A /* TeacherCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35C1723E201F2A1900741213 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				35C1723F201F2A1900741213 /* Controller */,
+				35C17240201F2A1900741213 /* Model */,
+				35C17241201F2A1900741213 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		35C1723F201F2A1900741213 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35C17245201F2A3600741213 /* MineController.h */,
+				35C17246201F2A3600741213 /* MineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35C17240201F2A1900741213 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35C17241201F2A1900741213 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35DB726420197AC3008CF63D /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				35DB726520197AC3008CF63D /* XCNormalFooter.m */,
+				35DB727120197AC3008CF63D /* BaseViewController.h */,
+				35DB726620197AC3008CF63D /* BaseViewController.m */,
+				35DB726720197AC3008CF63D /* BaseTabBarController.h */,
+				35DB726E20197AC3008CF63D /* BaseTabBarController.m */,
+				35DB726D20197AC3008CF63D /* BaseNavigationController.h */,
+				35DB726820197AC3008CF63D /* BaseNavigationController.m */,
+				35DB726920197AC3008CF63D /* MBProgressHUD+Extension.h */,
+				35DB726A20197AC3008CF63D /* XCNormalHeader.m */,
+				35DB726B20197AC3008CF63D /* XCNormalHeader.h */,
+				35DB726C20197AC3008CF63D /* MBProgressHUD+Extension.m */,
+				35DB726F20197AC3008CF63D /* MBProgressHUD.bundle */,
+				35DB727020197AC3008CF63D /* XCNormalFooter.h */,
+			);
+			path = CommonClass;
+			sourceTree = "<group>";
+		};
+		35DB727220197AC3008CF63D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				35DB727320197AC3008CF63D /* FLAnimatedImageView+WebCache.m */,
+				35DB727520197AC3008CF63D /* UIView+XCCornerRadius.m */,
+				35DB727620197AC3008CF63D /* UILabel+XCHelper.h */,
+				35DB727720197AC3008CF63D /* UIAlertController+Color.h */,
+				35DB727820197AC3008CF63D /* UIImage+Category.m */,
+				35DB727920197AC3008CF63D /* UIView+XCHelper.h */,
+				35DB727A20197AC3008CF63D /* UIButton+XCHelperBlock.m */,
+				35DB727B20197AC3008CF63D /* UIView+Layout.m */,
+				35DB727C20197AC3008CF63D /* BaseNetworking.m */,
+				35DB727F20197AC3008CF63D /* UIButton+timer.m */,
+				35DB728020197AC3008CF63D /* NSString+XCHelper.m */,
+				35DB728120197AC3008CF63D /* NSArray+SafeExtension.m */,
+				35DB728220197AC3008CF63D /* UILabel+XCHelper.m */,
+				35DB728320197AC3008CF63D /* UIView+XCCornerRadius.h */,
+				35DB728520197AC3008CF63D /* FLAnimatedImageView+WebCache.h */,
+				35DB728620197AC3008CF63D /* UIView+XCHelper.m */,
+				35DB728720197AC3008CF63D /* UIImage+Category.h */,
+				35DB728820197AC3008CF63D /* UIAlertController+Color.m */,
+				35DB728920197AC3008CF63D /* BaseNetworking.h */,
+				35DB728A20197AC3008CF63D /* UIView+Layout.h */,
+				35DB728B20197AC3008CF63D /* UIButton+XCHelperBlock.h */,
+				35DB728C20197AC3008CF63D /* NSArray+SafeExtension.h */,
+				35DB728D20197AC3008CF63D /* NSString+XCHelper.h */,
+				35DB728E20197AC3008CF63D /* UIButton+timer.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		70E02A9584FDF4A016305064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4BB7508F2C4B36C46051C /* Pods_GoGoTalk.framework */,
+				50A612CD98E62E96EC9C6172 /* Pods_GoGoTalkTests.framework */,
+				7EB876D855951AA54E7A61D6 /* Pods_GoGoTalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA4CB01FD0412CDBFF3332D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F9F210F598FCCE0146E0C /* Pods-GoGoTalk.debug.xcconfig */,
+				7F972A673EA02CED8EEFE5AE /* Pods-GoGoTalk.release.xcconfig */,
+				960454EC04C0F7F03019542C /* Pods-GoGoTalkTests.debug.xcconfig */,
+				1D52CB5CD468D42A6FFD8DB6 /* Pods-GoGoTalkTests.release.xcconfig */,
+				586BA3F74A8BB15A620F0A8D /* Pods-GoGoTalkUITests.debug.xcconfig */,
+				E1CB850F6FF0EA5E2BCBB6D0 /* Pods-GoGoTalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3561AF55201976D1009CD26B /* GoGoTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3561AF82201976D1009CD26B /* Build configuration list for PBXNativeTarget "GoGoTalk" */;
+			buildPhases = (
+				1ED7B5E9869BEA82BE1D986F /* [CP] Check Pods Manifest.lock */,
+				3561AF52201976D1009CD26B /* Sources */,
+				3561AF53201976D1009CD26B /* Frameworks */,
+				3561AF54201976D1009CD26B /* Resources */,
+				6AA3C00BF9EAB811127527B8 /* [CP] Embed Pods Frameworks */,
+				87A2A5A25E65E2118383B9DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoGoTalk;
+			productName = GoGoTalk;
+			productReference = 3561AF56201976D1009CD26B /* GoGoTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3561AF6D201976D1009CD26B /* GoGoTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3561AF85201976D1009CD26B /* Build configuration list for PBXNativeTarget "GoGoTalkTests" */;
+			buildPhases = (
+				428DA57B1645FD8465A4D11B /* [CP] Check Pods Manifest.lock */,
+				3561AF6A201976D1009CD26B /* Sources */,
+				3561AF6B201976D1009CD26B /* Frameworks */,
+				3561AF6C201976D1009CD26B /* Resources */,
+				20101C00F71E191532924BA9 /* [CP] Embed Pods Frameworks */,
+				409DE167F0E943F6ABB56B6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3561AF70201976D1009CD26B /* PBXTargetDependency */,
+			);
+			name = GoGoTalkTests;
+			productName = GoGoTalkTests;
+			productReference = 3561AF6E201976D1009CD26B /* GoGoTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3561AF78201976D1009CD26B /* GoGoTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3561AF88201976D1009CD26B /* Build configuration list for PBXNativeTarget "GoGoTalkUITests" */;
+			buildPhases = (
+				29C71F2B6A4E43701840007E /* [CP] Check Pods Manifest.lock */,
+				3561AF75201976D1009CD26B /* Sources */,
+				3561AF76201976D1009CD26B /* Frameworks */,
+				3561AF77201976D1009CD26B /* Resources */,
+				F36CF1FF796AC07CB6C982F8 /* [CP] Embed Pods Frameworks */,
+				97C849D050663195228FDFF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3561AF7B201976D1009CD26B /* PBXTargetDependency */,
+			);
+			name = GoGoTalkUITests;
+			productName = GoGoTalkUITests;
+			productReference = 3561AF79201976D1009CD26B /* GoGoTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3561AF4E201976D1009CD26B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "何建新";
+				TargetAttributes = {
+					3561AF55201976D1009CD26B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3561AF6D201976D1009CD26B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3561AF55201976D1009CD26B;
+					};
+					3561AF78201976D1009CD26B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3561AF55201976D1009CD26B;
+					};
+				};
+			};
+			buildConfigurationList = 3561AF51201976D1009CD26B /* Build configuration list for PBXProject "GoGoTalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3561AF4D201976D1009CD26B;
+			productRefGroup = 3561AF57201976D1009CD26B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3561AF55201976D1009CD26B /* GoGoTalk */,
+				3561AF6D201976D1009CD26B /* GoGoTalkTests */,
+				3561AF78201976D1009CD26B /* GoGoTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3561AF54201976D1009CD26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561AF66201976D1009CD26B /* LaunchScreen.storyboard in Resources */,
+				35DB729720197AC3008CF63D /* MBProgressHUD.bundle in Resources */,
+				3561AF63201976D1009CD26B /* Assets.xcassets in Resources */,
+				3561AF61201976D1009CD26B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561AF6C201976D1009CD26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561AF77201976D1009CD26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED7B5E9869BEA82BE1D986F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoGoTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20101C00F71E191532924BA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGoTalkTests/Pods-GoGoTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C71F2B6A4E43701840007E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoGoTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		409DE167F0E943F6ABB56B6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGoTalkTests/Pods-GoGoTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		428DA57B1645FD8465A4D11B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoGoTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AA3C00BF9EAB811127527B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoGoTalk/Pods-GoGoTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGoTalk/Pods-GoGoTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A2A5A25E65E2118383B9DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoGoTalk/Pods-GoGoTalk-resources.sh",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGoTalk/Pods-GoGoTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C849D050663195228FDFF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGoTalkUITests/Pods-GoGoTalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36CF1FF796AC07CB6C982F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGoTalkUITests/Pods-GoGoTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3561AF52201976D1009CD26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561AF5E201976D1009CD26B /* ViewController.m in Sources */,
+				35C17244201F2A2A00741213 /* OrderclassController.m in Sources */,
+				351CC8DC20280BB8005D557A /* CurriculumVIPEndCell.m in Sources */,
+				35DB729E20197AC3008CF63D /* UIButton+timer.m in Sources */,
+				35DB729920197AC3008CF63D /* UIView+XCCornerRadius.m in Sources */,
+				35DB729820197AC3008CF63D /* FLAnimatedImageView+WebCache.m in Sources */,
+				35DC65902020309800AAA3CD /* CurriculumView.m in Sources */,
+				35DB729F20197AC3008CF63D /* NSString+XCHelper.m in Sources */,
+				35DB729520197AC3008CF63D /* MBProgressHUD+Extension.m in Sources */,
+				35DB729C20197AC3008CF63D /* UIView+Layout.m in Sources */,
+				35DB729220197AC3008CF63D /* BaseViewController.m in Sources */,
+				35DB729320197AC3008CF63D /* BaseNavigationController.m in Sources */,
+				35EF5A84202A985800F74F8A /* TeacherCell.m in Sources */,
+				35DB72A420197AC3008CF63D /* UIAlertController+Color.m in Sources */,
+				359A938820199BBF00A63A5C /* NewFeatherViewController.m in Sources */,
+				35DB729620197AC3008CF63D /* BaseTabBarController.m in Sources */,
+				3561AF69201976D1009CD26B /* main.m in Sources */,
+				35DB729120197AC3008CF63D /* XCNormalFooter.m in Sources */,
+				35DB729D20197AC3008CF63D /* BaseNetworking.m in Sources */,
+				351CC8E22028343B005D557A /* ClassInfoController.m in Sources */,
+				35C17247201F2A3600741213 /* MineController.m in Sources */,
+				35DB72A020197AC3008CF63D /* NSArray+SafeExtension.m in Sources */,
+				3505009B20244DF500C7CECF /* CurriculumVIPCell.m in Sources */,
+				3548972620294243002E081A /* ClassEvaluateView.m in Sources */,
+				351CC8E52028410D005D557A /* ClassInfoCell.m in Sources */,
+				3561AF5B201976D1009CD26B /* AppDelegate.m in Sources */,
+				35DB729420197AC3008CF63D /* XCNormalHeader.m in Sources */,
+				351CC8E8202867A2005D557A /* ClassEvaluateController.m in Sources */,
+				35C1722E201ECFB400741213 /* LoginView.m in Sources */,
+				35DB729B20197AC3008CF63D /* UIButton+XCHelperBlock.m in Sources */,
+				35DB729A20197AC3008CF63D /* UIImage+Category.m in Sources */,
+				3505009E202454C000C7CECF /* CurriculumTopView.m in Sources */,
+				350500A12024723100C7CECF /* VIPCellModel.m in Sources */,
+				35EF5A87202ADAA900F74F8A /* ConditionsSelectionController.m in Sources */,
+				35DB72A320197AC3008CF63D /* UIView+XCHelper.m in Sources */,
+				356F4D3F2029AD020050567A /* SearchView.m in Sources */,
+				359A938520199B8600A63A5C /* LoginViewController.m in Sources */,
+				35DB72A120197AC3008CF63D /* UILabel+XCHelper.m in Sources */,
+				35C17239201F289100741213 /* CurriculumController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561AF6A201976D1009CD26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561AF73201976D1009CD26B /* GoGoTalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3561AF75201976D1009CD26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561AF7E201976D1009CD26B /* GoGoTalkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3561AF70201976D1009CD26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3561AF55201976D1009CD26B /* GoGoTalk */;
+			targetProxy = 3561AF6F201976D1009CD26B /* PBXContainerItemProxy */;
+		};
+		3561AF7B201976D1009CD26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3561AF55201976D1009CD26B /* GoGoTalk */;
+			targetProxy = 3561AF7A201976D1009CD26B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3561AF5F201976D1009CD26B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3561AF60201976D1009CD26B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3561AF64201976D1009CD26B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3561AF65201976D1009CD26B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3561AF80201976D1009CD26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3561AF81201976D1009CD26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3561AF83201976D1009CD26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4F9F210F598FCCE0146E0C /* Pods-GoGoTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GoGoTalk/PrefixHeader.pch";
+				INFOPLIST_FILE = GoGoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejianxin.GoGoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3561AF84201976D1009CD26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F972A673EA02CED8EEFE5AE /* Pods-GoGoTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GoGoTalk/PrefixHeader.pch";
+				INFOPLIST_FILE = GoGoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejianxin.GoGoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3561AF86201976D1009CD26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960454EC04C0F7F03019542C /* Pods-GoGoTalkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				INFOPLIST_FILE = GoGoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejianxin.GoGoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoGoTalk.app/GoGoTalk";
+			};
+			name = Debug;
+		};
+		3561AF87201976D1009CD26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D52CB5CD468D42A6FFD8DB6 /* Pods-GoGoTalkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				INFOPLIST_FILE = GoGoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejianxin.GoGoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoGoTalk.app/GoGoTalk";
+			};
+			name = Release;
+		};
+		3561AF89201976D1009CD26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586BA3F74A8BB15A620F0A8D /* Pods-GoGoTalkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				INFOPLIST_FILE = GoGoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejianxin.GoGoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoGoTalk;
+			};
+			name = Debug;
+		};
+		3561AF8A201976D1009CD26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1CB850F6FF0EA5E2BCBB6D0 /* Pods-GoGoTalkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				INFOPLIST_FILE = GoGoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejianxin.GoGoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoGoTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3561AF51201976D1009CD26B /* Build configuration list for PBXProject "GoGoTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561AF80201976D1009CD26B /* Debug */,
+				3561AF81201976D1009CD26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3561AF82201976D1009CD26B /* Build configuration list for PBXNativeTarget "GoGoTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561AF83201976D1009CD26B /* Debug */,
+				3561AF84201976D1009CD26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3561AF85201976D1009CD26B /* Build configuration list for PBXNativeTarget "GoGoTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561AF86201976D1009CD26B /* Debug */,
+				3561AF87201976D1009CD26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3561AF88201976D1009CD26B /* Build configuration list for PBXNativeTarget "GoGoTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561AF89201976D1009CD26B /* Debug */,
+				3561AF8A201976D1009CD26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3561AF4E201976D1009CD26B /* Project object */;
+}
